@@ -36,7 +36,7 @@ DWORD ThreadProc(PVOID parameter)
     if (GetCurrentPackagePath(&(UINT){MAX_PATH}, path) || !SetCurrentDirectoryW(path))
         goto _;
 
-    HANDLE mutex = CreateMutexW(NULL, FALSE, mutex);
+    HANDLE mutex = CreateMutexW(NULL, FALSE, pfn);
     if (!mutex || GetLastError())
     {
         CloseHandle(mutex);
