@@ -62,6 +62,7 @@ jobs:
 
       - name: Deploy
         shell: pwsh
+        run: |
           $Path = "$(Get-Location)\src\bin\gamelaunchhelper.dll"
           Move-Item "$Path" "cdn\launcher\gamelaunchhelper.dll"
 
