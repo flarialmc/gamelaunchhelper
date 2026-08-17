@@ -7,7 +7,7 @@ BEGIN
 BLOCK "040904b0"
 BEGIN
 VALUE "CompanyName", "Flarial"
-VALUE "FileDescription", "Flarial Game Launch Helper"
+VALUE "FileDescription", "Game Launch Helper"
 VALUE "ProductName", "Flarial Game Launch Helper"
 VALUE "ProductVersion",	"1.0.0.0"
 VALUE "LegalCopyright", "Copyright (C) 2026 Flarial"
