@@ -1,16 +1,16 @@
 #include <windows.h>
 VS_VERSION_INFO VERSIONINFO
-FILEVERSION 1, 1, 1, 0
+FILEVERSION 1, 0, 0, 0
 BEGIN
 BLOCK "StringFileInfo"
 BEGIN
 BLOCK "040904b0"
 BEGIN
-VALUE "CompanyName", "Aetopia"
-VALUE "FileDescription", "Pyroclastic"
-VALUE "ProductName", "Pyroclastic"
-VALUE "ProductVersion",	"1.1.1.0"
-VALUE "LegalCopyright", "Copyright (C) 2025 Aetopia"
+VALUE "CompanyName", "Flarial"
+VALUE "FileDescription", "Flarial Game Launch Helper"
+VALUE "ProductName", "Flarial Game Launch Helper"
+VALUE "ProductVersion",	"1.0.0.0"
+VALUE "LegalCopyright", "Copyright (C) 2026 Flarial"
 END
 END
 BLOCK "VarFileInfo"
